@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css\project.css">
+<link rel="shortcut icon" href="res\html5.png">
+
+</head>
+<body bgcolor="black">
+
+<h1 align="center">CUSTOM ~ EDITOR</h1>
+
+<nav class="topnav" style="width:100%;height:44px;">
+	<ul>
+		<li>	<a href="/html/">HTML    </a> |   </li>
+  		<li>	<a href="/css/">CSS      </a> |	  </li>
+  		<li>	<a href="/js/">JAVASCRIPT</a> |	  </li>
+  		<li>	<a href="/jquery/">PHP</a>	  </li>
+  	</ul>
+</nav>
+
+<!--<marquee scrollamount="10" direction="right">
+	<img src="res\train.gif" height="50px" width="150px">
+	WEB TRAIN
+</marquee>-->
+
+<img src="res\DEnd.gif" align="left" height="150px" width="150px">
+
+
+
+<div class="container">
+  <form action="/project.php">
+  	<fieldset>
+  	<legend>DESIGN WEB</legend>
+    <div class="row">
+      <div class="col-25">
+        <label for="name">WHAT DO YOU WANT TO NAME YOUR WEBPAGE?</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="tname" placeholder="Name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="head">GIVE THE HEADING FOR THE WEBPAGE</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="head" name="head" placeholder="Head..">
+      </div>
+    </div>
+	<div class="row">
+      <div class="col-25">
+        <label for="head_size">HEAD SIZE</label><br><label for="head_style">HEAD STYLE</label><br><label for="head_color">HEAD COLOUR</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="head_size" name="head_size" ><br><br><input type="text" id="head_style" name="head_style" ><br><br><input type="color" id="head_color" name="head_color" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="bgcolor">CHOOSE THE BACKGROUND COLOUR</label>
+      </div>
+      <div class="col-75">
+        <input type="color" id="bg" name="bgcolor" >
+      </div>
+    </div>
+    
+<div class="row">
+      <div class="col-25">
+        <label for="para">TYPE IN ANY NUMBER OF PARAGRAPHS</label>
+      </div>
+      <div class="col-75">
+        <textarea id="para" name="para" placeholder="Use | to indicate the end of paragraph.." style="height:200px"></textarea>
+      </div>
+    </div>
+
+<div class="row">
+      <div class="col-25">
+        <label for="size">GIVE THE TEXT SIZE</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="size" name="size" >
+      </div>
+    </div>
+
+<div class="row">
+      <div class="col-25">
+        <label for="color">CHOOSE THE TEXT COLOUR</label>
+      </div>
+      <div class="col-75">
+        <input type="color" id="color" name="color" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="style">STYLE YOUR WEBPAGE</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="style" name="style" >
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="img_file">CHOOSE AN IMAGE FILE</label>
+      </div>
+      <div class="col-75">
+        <input type="file" id="img_file" name="img_file" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="img_height">CHOOSE THE HEIGHT OF YOUR IMAGE</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="img_height" name="img_height" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="img_width">CHOOSE THE WIDTH OF YOUR IMAGE</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="img_width" name="img_width" >
+      </div>
+    </div>
+	<div class="row">
+      <div class="col-25">
+        <label for="code">ADD ANY HTML CODE YOU WANT TO DISPLAY IN ADDITION</label>
+      </div>
+      <div class="col-75">
+        <textarea placeholder="write your code here" name="code" id="code"></textarea>
+      </div>
+    </div>
+	
+
+      <div>
+        <input type="reset" class="res" align="left" value="Reset">
+      </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </fieldset>
+      
+  </form>
+</div>
+
+
+
+</body>
+</html>
